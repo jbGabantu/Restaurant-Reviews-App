@@ -9,7 +9,9 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 5500 // Change this to your server port
-    return `http://localhost:${port}/data/restaurants.json`;
+    // return `http://localhost:${port}/data/restaurants.json`;
+    // return `https://jbgabantu.github.io/Restaurant-Reviews-App//data/restaurants.json`;
+    return `data/restaurants.json`;
   }
 
   /**
@@ -150,7 +152,7 @@ class DBHelper {
    * Restaurant image URL.
    */
   static imageUrlForRestaurant(restaurant) {
-    return (`/img/${restaurant.photograph}`);
+    return (`./img/${restaurant.photograph}`);
   }
 
   /**
