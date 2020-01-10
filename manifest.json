@@ -3,12 +3,12 @@
   "short_name": "RR",
   "icons": [
     {
-      "src": "http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Restaurant-icon.png",
+      "src": "./restaurant_icon.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Restaurant-icon.png",
+      "src": "./restaurant_icon.png",
       "type": "image/png",
       "sizes": "512x512"
     }
