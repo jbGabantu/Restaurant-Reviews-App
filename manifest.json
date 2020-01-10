@@ -1,0 +1,21 @@
+{
+  "name": "Restaurant Reviews",
+  "short_name": "RR",
+  "icons": [
+    {
+      "src": "http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Restaurant-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "http://icons.iconarchive.com/icons/graphicloads/colorful-long-shadow/256/Restaurant-icon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "theme_color": "#2196f3",
+  "background_color": "#2196f3",
+  "display": "standalone",
+  "scope": ".",
+  "start_url": "./index.html"
+}
